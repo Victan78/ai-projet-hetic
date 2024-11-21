@@ -1,5 +1,7 @@
+**assurer vous d'avoir python ^3 installé**
+
 **Créez un environnement virtuel :**
-`python -m venv venv`
+`python3 -m venv venv`
 `source venv/bin/activate`
 
 

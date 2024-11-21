@@ -1,3 +1,12 @@
-python3 -m venv path/to/venv
-source path/to/venv/bin/activate
-python3 -m pip install ollama
+**Créez un environnement virtuel :**
+`python -m venv venv`
+`source venv/bin/activate`
+
+
+**Installez les bibliothèques requises :**
+`pip install ollama requests colorama`
+
+
+**lancer le script**
+`python main.py`
+

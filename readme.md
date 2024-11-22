@@ -12,4 +12,6 @@
 **lancer le script**
 `python main.py`
 
+**voici le lien du documentt que je l'envois**
 
+https://hetic-project.s3.us-east-1.amazonaws.com/contes.txt

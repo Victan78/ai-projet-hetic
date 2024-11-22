@@ -29,13 +29,11 @@ def chat_with_model(question, use_rag=False, paragraphs=None):
     print(f"\nTemps de réponse: {elapsed_time:.2f} secondes")
 
 def fetch_file_content(url):
-    """Fonction pour lire directement le contenu du fichier depuis l'URL."""
     response = requests.get(url)
     response.raise_for_status()  
     return response.text
 
 def parse_document_from_text(text):
-    """Convertit le texte brut en une liste de paragraphes."""
     paragraphs = []
     buffer = []
     for line in text.splitlines():
